@@ -3,14 +3,21 @@
     border-radius: 6px;
     margin: 16px;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding: 32px;
     flex-direction: column;
     text-decoration: none;
+    max-width: 500px;
 }
 
 Gif img{
-    object-fit: contain;
+    object-fit: fill;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 Gif h4{
